@@ -51,3 +51,11 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 29ms (Views: 16.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/posts" for 93.115.195.88 at 2019-05-21 09:22:27 +0000
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 204ms (Views: 199.2ms | ActiveRecord: 0.4ms)
+
+
